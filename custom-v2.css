@@ -1,0 +1,67 @@
+/* Общий фон формы */
+.trademc-buyform {
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+}
+
+/* Заголовок */
+.trademc-buyform h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Все input и select */
+.trademc-buyform input,
+.trademc-buyform select {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 14px;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* Плейсхолдеры светлее */
+.trademc-buyform input::placeholder {
+  color: #aaaaaa;
+}
+
+/* Кнопка */
+.trademc-buyform button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fca311;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover эффект */
+.trademc-buyform button:hover {
+  background-color: #e59400;
+}
+
+/* Убираем фокус-рамку */
+.trademc-buyform input:focus,
+.trademc-buyform select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fca31155;
+}
